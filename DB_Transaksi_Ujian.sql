@@ -34,8 +34,8 @@ CREATE TABLE Transaksi (
 INSERT INTO Admin (id_admin, username_admin, pass_admin) VALUES 
 ('A001', 'ysr', 'iniapel'),
 ('A002', 'rhmsty', 'apelmanis'),
-('A003', 'yassir', 'bajumerah'),
-('A004', 'alghifari', 'hp0987'),
+('A003', 'setyo', 'bajumerah'),
+('A004', 'rini', 'hp0987'),
 ('A005', 'kevin', 'maksudlo'),
 ('A006', 'miya', 'login12'),
 ('A007', 'layla', '12345'),
@@ -70,7 +70,7 @@ SELECT * FROM Mobil;
 
 --record transaksi
 INSERT INTO Transaksi (id_transaksi, id_pelanggan, id_mobil, nama_pelanggan, nama_mobil, tgl_pinjam, tgl_kembali, harga_sewa)
-VALUES ('T001', 'P001', 'M001', 'Yassir alghifari', 'Toyota Avanza', '2023-07-01', '2023-07-03', 600000);
+VALUES ('T001', 'P001', 'M001', 'Rahmawati', 'Toyota Avanza', '2023-07-01', '2023-07-03', 600000);
 INSERT INTO Transaksi (id_transaksi, id_pelanggan, id_mobil, nama_pelanggan, nama_mobil, tgl_pinjam, tgl_kembali, harga_sewa)
 VALUES ('T002', 'P002', 'M005', 'Lusiana', 'Toyota Ertiga', '2023-07-02', '2023-07-05', 800000);
 INSERT INTO Transaksi (id_transaksi, id_pelanggan, id_mobil, nama_pelanggan, nama_mobil, tgl_pinjam, tgl_kembali, harga_sewa)
