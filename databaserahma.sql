@@ -33,8 +33,8 @@ SELECT * FROM sales;
 INSERT INTO customer VALUES('A9875', 'Lilis', 'A', '17', 'Indonesia', 'Jakarta', 'WNI', '17879','Cengkareng');
 INSERT INTO customer VALUES('A8678', 'Jihan', 'A', '21', 'Indonesia', 'Jakarta', 'WNI', '17908','Cengkareng');
 INSERT INTO customer VALUES('A3456', 'Lia', 'A', '22', 'Indonesia', 'Bekasi', 'WNI', '17567','Tambun');
-INSERT INTO customer VALUES('A2675', 'Alghifari', 'A', '20', 'Indonesia', 'Jakarta', 'WNI', '19087','Pondok Kelapa');
-INSERT INTO customer VALUES('A9054', 'Ari', 'A', '21', 'Indonesia', 'Jakarta', 'WNI', '17684','Duren Sawit');
+INSERT INTO customer VALUES('A2675', 'Rahmawati', 'A', '20', 'Indonesia', 'Jakarta', 'WNI', '19087','Pondok Kelapa');
+INSERT INTO customer VALUES('A9054', 'Setyorini', 'A', '21', 'Indonesia', 'Jakarta', 'WNI', '17684','Duren Sawit');
 SELECT * FROM customer;
 
 INSERT INTO product VALUES('96578', 'Elektronik', 'Laptop', 'Lenovo Ideapad');
