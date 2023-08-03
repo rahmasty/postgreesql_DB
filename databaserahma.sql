@@ -1,4 +1,3 @@
-CREATE DATABASE supermarket_yassir;
 CREATE TABLE customer(
 	customer_id VARCHAR(255) not null PRIMARY KEY,
 	customer_name VARCHAR(255),
